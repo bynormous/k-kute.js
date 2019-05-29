@@ -23,7 +23,7 @@
 
   // supported properties
   var colorProps = ['borderColor', 'borderTopColor', 'borderRightColor', 'borderBottomColor', 'borderLeftColor', 'outlineColor'], // colors 'hex', 'rgb', 'rgba' -- #fff / rgb(0,0,0) / rgba(0,0,0,0)
-    boxModelProps  = ['right', 'bottom', 'minWidth', 'minHeight', 'maxWidth', 'maxHeight',
+    boxModelProps  = ['flexBasis', 'right', 'bottom', 'minWidth', 'minHeight', 'maxWidth', 'maxHeight',
       'padding', 'margin', 'paddingTop','paddingBottom', 'paddingLeft', 'paddingRight', 'marginTop','marginBottom', 'marginLeft', 'marginRight',
       'borderWidth', 'borderTopWidth', 'borderRightWidth', 'borderBottomWidth', 'borderLeftWidth', 'outlineWidth'], // dimensions / box model
     radiusProps  = ['borderRadius', 'borderTopLeftRadius', 'borderTopRightRadius', 'borderBottomLeftRadius', 'borderBottomRightRadius'], // border radius px/%
